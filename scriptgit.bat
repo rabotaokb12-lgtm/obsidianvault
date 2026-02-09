@@ -17,7 +17,7 @@ REM ===== Получаем имя ПК =====
 set PCNAME=%COMPUTERNAME%
 
 REM ===== Собираем имя файла =====
-set ZIPFILE=%BACKUP%\Бэкап_%DD%_%MM%_%YYYY%_%PCNAME%.zip
+set ZIPFILE=%BACKUP%\Backup_%DD%_%MM%_%YYYY%_%PCNAME%.zip
 
 REM ===== Создаём zip архив =====
 powershell -command "Compress-Archive -Path '%VAULT%\*' -DestinationPath '%ZIPFILE%' -Force"
