@@ -6,11 +6,18 @@ set BACKUP=D:\Programs\Obsidian\Learn\ObsidianVaultBackups
 REM ===== Создаём папку для бэкапов, если нет =====
 if not exist "%BACKUP%" mkdir "%BACKUP%"
 
-REM ===== Создаём архив с датой =====
-set DATE=%date:~10,4%-%date:~4,2%-%date:~7,2%_%time:~0,2%-%time:~3,2%
-REM убираем пробел в часах
-set DATE=%DATE: =0%
-set ZIPFILE=%BACKUP%\ObsidianBackup_%DATE%.zip
+REM ===== Получаем день, месяц, год =====
+for /f "tokens=1-3 delims=/" %%a in ("%date%") do (
+    set DD=%%a
+    set MM=%%b
+    set YYYY=%%c
+)
+
+REM ===== Получаем имя ПК =====
+set PCNAME=%COMPUTERNAME%
+
+REM ===== Собираем имя файла =====
+set ZIPFILE=%BACKUP%\Бэкап_%DD%_%MM%_%YYYY%_%PCNAME%.zip
 
 REM ===== Создаём zip архив =====
 powershell -command "Compress-Archive -Path '%VAULT%\*' -DestinationPath '%ZIPFILE%' -Force"
