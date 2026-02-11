@@ -13,5 +13,3 @@ vlan 101
 exit
 show vlan brief
 write
-
-хуй знает быть может
