@@ -16,24 +16,15 @@ for /f "tokens=1-3 delims=/" %%a in ("%date%") do (
 REM ===== Получаем имя ПК =====
 set PCNAME=%COMPUTERNAME%
 
-REM ===== Собираем имя файла =====
-set ZIPFILE=%BACKUP%\Backup_%DD%_%MM%_%YYYY%_%PCNAME%.zip
+REM ===== Формируем уникальное имя архива =====
+set ZIPFILE=%BACKUP%\Backup_%DD%_%MM%_%YYYY%_%PCNAME%_%TIME:~0,2%%TIME:~3,2%%TIME:~6,2%.zip
 
-REM ===== Проверяем, есть ли уже архив на эту дату =====
-if exist "%ZIPFILE%" (
-    echo Архив на %DD%.%MM%.%YYYY% уже существует. Создаём новый с индексом...
-    set INDEX=1
-    :loop
-    set ZIPFILE_INDEXED=%BACKUP%\Backup_%DD%_%MM%_%YYYY%_%PCNAME%_%INDEX%.zip
-    if exist "%ZIPFILE_INDEXED%" (
-        set /a INDEX+=1
-        goto loop
-    )
-    set ZIPFILE=%ZIPFILE_INDEXED%
-)
-
-REM ===== Создаём zip архив =====
-powershell -command "Compress-Archive -Path '%VAULT%\*' -DestinationPath '%ZIPFILE%'"
+REM ===== Архивируем всё, кроме папки ObsidianVaultBackups =====
+powershell -NoProfile -Command ^
+    "$vault = '%VAULT%';" ^
+    "$zip = '%ZIPFILE%';" ^
+    "$files = Get-ChildItem -Path $vault -Recurse | Where-Object { -not $_.PSIsContainer -or $_.FullName -notlike '*ObsidianVaultBackups*' };" ^
+    "Compress-Archive -LiteralPath $files.FullName -DestinationPath $zip"
 
 REM ===== Переходим в папку репозитория =====
 cd /d %VAULT%
