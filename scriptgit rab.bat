@@ -19,8 +19,21 @@ set PCNAME=%COMPUTERNAME%
 REM ===== Собираем имя файла =====
 set ZIPFILE=%BACKUP%\Backup_%DD%_%MM%_%YYYY%_%PCNAME%.zip
 
+REM ===== Проверяем, есть ли уже архив на эту дату =====
+if exist "%ZIPFILE%" (
+    echo Архив на %DD%.%MM%.%YYYY% уже существует. Создаём новый с индексом...
+    set INDEX=1
+    :loop
+    set ZIPFILE_INDEXED=%BACKUP%\Backup_%DD%_%MM%_%YYYY%_%PCNAME%_%INDEX%.zip
+    if exist "%ZIPFILE_INDEXED%" (
+        set /a INDEX+=1
+        goto loop
+    )
+    set ZIPFILE=%ZIPFILE_INDEXED%
+)
+
 REM ===== Создаём zip архив =====
-powershell -command "Compress-Archive -Path '%VAULT%\*' -DestinationPath '%ZIPFILE%' -Force"
+powershell -command "Compress-Archive -Path '%VAULT%\*' -DestinationPath '%ZIPFILE%'"
 
 REM ===== Переходим в папку репозитория =====
 cd /d %VAULT%
