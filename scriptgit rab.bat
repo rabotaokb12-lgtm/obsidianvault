@@ -16,15 +16,13 @@ for /f "tokens=1-3 delims=/" %%a in ("%date%") do (
 REM ===== Получаем имя ПК =====
 set PCNAME=%COMPUTERNAME%
 
-REM ===== Формируем уникальное имя архива =====
-set ZIPFILE=%BACKUP%\Backup_%DD%_%MM%_%YYYY%_%PCNAME%_%TIME:~0,2%%TIME:~3,2%%TIME:~6,2%.zip
+REM ===== Собираем имя файла =====
+set ZIPFILE=%BACKUP%\Backup_%DD%_%MM%_%YYYY%_%PCNAME%.zip
 
-REM ===== Архивируем всё, кроме папки ObsidianVaultBackups =====
-powershell -NoProfile -Command ^
-    "$vault = '%VAULT%';" ^
-    "$zip = '%ZIPFILE%';" ^
-    "$files = Get-ChildItem -Path $vault -Recurse | Where-Object { -not $_.PSIsContainer -or $_.FullName -notlike '*ObsidianVaultBackups*' };" ^
-    "Compress-Archive -LiteralPath $files.FullName -DestinationPath $zip"
+REM ===== Создаём zip архив, исключая папку ObsidianVaultBackups =====
+powershell -command ^
+    "$items = Get-ChildItem -Path '%VAULT%' | Where-Object { $_.Name -ne 'ObsidianVaultBackups' }; ^
+    Compress-Archive -Path $items.FullName -DestinationPath '%ZIPFILE%' -Force"
 
 REM ===== Переходим в папку репозитория =====
 cd /d %VAULT%
