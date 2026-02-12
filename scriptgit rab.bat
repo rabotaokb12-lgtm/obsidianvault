@@ -20,9 +20,7 @@ REM ===== Собираем имя файла =====
 set ZIPFILE=%BACKUP%\Backup_%DD%_%MM%_%YYYY%_%PCNAME%.zip
 
 REM ===== Создаём zip архив, исключая папку ObsidianVaultBackups =====
-powershell -command ^
-    "$items = Get-ChildItem -Path '%VAULT%' | Where-Object { $_.Name -ne 'ObsidianVaultBackups' }; ^
-    Compress-Archive -Path $items.FullName -DestinationPath '%ZIPFILE%' -Force"
+powershell -command "Compress-Archive -Path (Get-ChildItem -Path '%VAULT%' | Where-Object { $_.Name -ne 'ObsidianVaultBackups' }).FullName -DestinationPath '%ZIPFILE%' -Force"
 
 REM ===== Переходим в папку репозитория =====
 cd /d %VAULT%
