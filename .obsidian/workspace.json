@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Работа/1с установка.md",
+                "file": "DevOps/Stepik/Linux простым языком/5 Продвинутая работа в терминале/5.7 История команд history.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1с установка"
+              "title": "5.7 История команд history"
             }
           }
         ],
@@ -82,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "nginx",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -214,9 +214,14 @@
   },
   "active": "a8aa3c04df34128b",
   "lastOpenFiles": [
+    "ObsidianVaultBackups/Backup_18.02.2026___WS-250.zip",
+    "DevOps/Stepik/Git простым языком/3 Базовые операций/3.6 Отмена изменений checkout restore clean.md",
+    "DevOps/Stepik/Linux простым языком/5 Продвинутая работа в терминале/5.7 История команд history.md",
+    "DevOps/Интенсив/2 день/2.2 Навигация и базовые команды.md",
+    "DevOps/Stepik/Docker Простым Языком/3 Образы/3.4 Практика с кодами.md",
+    "Работа/1с установка.md",
     "ObsidianVaultBackups/Backup_17.02.2026___WS-250.zip",
     "ObsidianVaultBackups/Backup_16.02.2026___WS-250.zip",
-    "DevOps/Stepik/Docker Простым Языком/3 Образы/3.4 Практика с кодами.md",
     "ObsidianVaultBackups/Backup_13.02.2026___WS-250.zip",
     "DevOps/Stepik/Docker Простым Языком/2 Знакомство с Docker/2.10 Логи.md",
     "DevOps/Stepik/Docker Простым Языком/2 Знакомство с Docker/2.5 Практика.md",
@@ -244,11 +249,6 @@
     "backupobsidian.zip",
     "Новая сжатая ZIP-папка.zip",
     "scriptgit.bat",
-    "scriptgit.txt",
-    "README.md",
-    "DevOps/Интенсив/3 день ансибл/Теория/Структура yaml файлов.md",
-    "DevOps/Интенсив/1 день/1.2 Подготовка окружения.md",
-    "DevOps/Stepik/Linux простым языком/4 Текстовые редактовы/4.3 VIM.md",
-    "DevOps/Stepik/Linux простым языком/4 Текстовые редактовы/4.4 Vim Базовое редактирование.md"
+    "README.md"
   ]
 }
