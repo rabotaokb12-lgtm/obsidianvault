@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevOps/Stepik/Linux простым языком/5 Продвинутая работа в терминале/5.7 История команд history.md",
+                "file": "Работа/SNR на кпп.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5.7 История команд history"
+              "title": "SNR на кпп"
             }
           }
         ],
@@ -214,9 +214,10 @@
   },
   "active": "a8aa3c04df34128b",
   "lastOpenFiles": [
+    "ObsidianVaultBackups/Backup_19.02.2026___WS-250.zip",
+    "DevOps/Stepik/Linux простым языком/5 Продвинутая работа в терминале/5.7 История команд history.md",
     "ObsidianVaultBackups/Backup_18.02.2026___WS-250.zip",
     "DevOps/Stepik/Git простым языком/3 Базовые операций/3.6 Отмена изменений checkout restore clean.md",
-    "DevOps/Stepik/Linux простым языком/5 Продвинутая работа в терминале/5.7 История команд history.md",
     "DevOps/Интенсив/2 день/2.2 Навигация и базовые команды.md",
     "DevOps/Stepik/Docker Простым Языком/3 Образы/3.4 Практика с кодами.md",
     "Работа/1с установка.md",
@@ -248,7 +249,6 @@
     "ObsidianVaultBackups",
     "backupobsidian.zip",
     "Новая сжатая ZIP-папка.zip",
-    "scriptgit.bat",
     "README.md"
   ]
 }
