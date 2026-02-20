@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Работа/SNR на кпп.md",
+                "file": "Работа/1с установка.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SNR на кпп"
+              "title": "1с установка"
             }
           }
         ],
@@ -214,6 +214,12 @@
   },
   "active": "a8aa3c04df34128b",
   "lastOpenFiles": [
+    "Работа/ГПО.md",
+    "Работа/Настройка телефонов.md",
+    "Работа/Принтеры.md",
+    "Работа/AD.md",
+    "Работа/Excel формулы.md",
+    "Работа/SNR на кпп.md",
     "ObsidianVaultBackups/Backup_19.02.2026___WS-250.zip",
     "DevOps/Stepik/Linux простым языком/5 Продвинутая работа в терминале/5.7 История команд history.md",
     "ObsidianVaultBackups/Backup_18.02.2026___WS-250.zip",
@@ -240,15 +246,9 @@
     "DevOps/Stepik/Поколение Python/Создание ярлыка exe-шника.md",
     "ObsidianVaultBackups/Backup_12.02.2026___WS-250.zip",
     "DevOps/Stepik/Git простым языком/2 Основы Git/2.3 Основные понятие или термины.md",
-    "DevOps/Stepik/Git простым языком/3 Базовые операций/3.5 Просмотр историй.md",
-    "DevOps/Stepik/Git простым языком/3 Базовые операций/3.5 Просмотр историй 1.md",
-    "DevOps/Stepik/Git простым языком/3 Базовые операций/3.5 Просмотр историй 2.md",
     "ObsidianVaultBackups/Backup_09.02.2026___DESKTOP-2J97TH8.zip",
-    "DevOps/Интенсив/КАК ПОДКЛЮЧИТЬСЯ К ГИТУ.md",
     "ObsidianVaultBackups/ObsidianBackup_-2.-02_21-24.zip",
     "ObsidianVaultBackups",
-    "backupobsidian.zip",
-    "Новая сжатая ZIP-папка.zip",
-    "README.md"
+    "backupobsidian.zip"
   ]
 }
