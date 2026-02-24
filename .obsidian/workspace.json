@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevOps/Stepik/Docker Простым Языком/3 Образы/3.4 Практика с кодами.md",
+                "file": "DevOps/Гит синхра.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3.4 Практика с кодами"
+              "title": "Гит синхра"
             }
           }
         ],
@@ -82,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "docker run",
+                "query": "--global",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -214,41 +214,41 @@
   },
   "active": "a8aa3c04df34128b",
   "lastOpenFiles": [
-    "ObsidianVaultBackups/Backup_23.02.2026___WS-250.zip",
-    "DevOps/Stepik/Docker Простым Языком/2 Знакомство с Docker/2.5 Практика.md",
+    "ObsidianVaultBackups/Backup_24.02.2026___WS-250.zip",
+    "DevOps/Stepik/Git простым языком/3 Базовые операций/3.2 Практика.md",
+    "DevOps/Stepik/Git простым языком/3 Базовые операций/3.1 создание репозитория.md",
+    "DevOps/Stepik/Git простым языком/3 Базовые операций/3.5 Просмотр историй.md",
+    "DevOps/Гит синхра.md",
+    "DevOps/Stepik/Git простым языком/Установка.md",
+    "Работа/AD.md",
+    "DevOps/Stepik/Linux простым языком/4 Текстовые редактовы/4.3 VIM.md",
+    "DevOps/Stepik/Git простым языком/3 Базовые операций/3.5 Просмотр историй 2.md",
+    "DevOps/Stepik/Git простым языком/3 Базовые операций/3.5 Просмотр историй 1.md",
     "DevOps/Stepik/Docker Простым Языком/3 Образы/3.4 Практика с кодами.md",
+    "DevOps/Stepik/Linux простым языком/5 Продвинутая работа в терминале/5.7 История команд history.md",
+    "DevOps/Stepik/Docker Простым Языком/2 Знакомство с Docker/2.5 Команды Docker.md",
+    "DevOps/Stepik/Docker Простым Языком/2 Знакомство с Docker/2.4 DockerFile, контейнеры, тома, образы, сети.md",
+    "DevOps/Интенсив/3 день ансибл/Практика/1 Практика.md",
+    "DevOps/Stepik/Docker Простым Языком/3 Образы/3.2 Заметка.md",
+    "DevOps/Stepik/Docker Простым Языком/3 Образы/3.1 Что такое Image.md",
+    "DevOps/Stepik/Docker Простым Языком/3 Образы/3.1 Что такое Image 2.md",
+    "DevOps/Stepik/Docker Простым Языком/3 Образы/3.1 Что такое Image 1.md",
+    "DevOps/Stepik/Docker Простым Языком/2 Знакомство с Docker/2.10 Логи.md",
+    "DevOps/Stepik/Docker Простым Языком/2 Знакомство с Docker/2.8 Работа внутри контейнера.md",
+    "DevOps/Stepik/Linux простым языком/3 Основы командной строки/3.2 Практика.md",
+    "ObsidianVaultBackups/Backup_23.02.2026___WS-250.zip",
     "Работа/1с установка.md",
     "Работа/ГПО.md",
     "Работа/Настройка телефонов.md",
     "Работа/Принтеры.md",
-    "Работа/AD.md",
-    "Работа/Excel формулы.md",
-    "Работа/SNR на кпп.md",
     "ObsidianVaultBackups/Backup_19.02.2026___WS-250.zip",
-    "DevOps/Stepik/Linux простым языком/5 Продвинутая работа в терминале/5.7 История команд history.md",
     "ObsidianVaultBackups/Backup_18.02.2026___WS-250.zip",
-    "DevOps/Stepik/Git простым языком/3 Базовые операций/3.6 Отмена изменений checkout restore clean.md",
-    "DevOps/Интенсив/2 день/2.2 Навигация и базовые команды.md",
     "ObsidianVaultBackups/Backup_17.02.2026___WS-250.zip",
     "ObsidianVaultBackups/Backup_16.02.2026___WS-250.zip",
     "ObsidianVaultBackups/Backup_13.02.2026___WS-250.zip",
-    "DevOps/Stepik/Docker Простым Языком/2 Знакомство с Docker/2.10 Логи.md",
-    "DevOps/Stepik/Docker Простым Языком/3 Образы/3.2 Заметка.md",
-    "DevOps/Stepik/Docker Простым Языком/2 Знакомство с Docker/2.8 Работа внутри контейнера.md",
-    "DevOps/Stepik/Docker Простым Языком/2 Знакомство с Docker/2.4 DockerFile, контейнеры, тома, образы, сети.md",
-    "DevOps/Stepik/Docker Простым Языком/3 Образы/3.1 Что такое Image.md",
-    "DevOps/Stepik/Docker Простым Языком/3 Образы/3.1 Что такое Image 2.md",
-    "DevOps/Stepik/Docker Простым Языком/3 Образы/3.1 Что такое Image 1.md",
-    "DevOps/Stepik/Linux простым языком/Действия при заполнений памяти.md",
-    "DevOps/Stepik/Git простым языком/3 Базовые операций/3.2 Практика.md",
-    "DevOps/Stepik/Docker Простым Языком/2 Знакомство с Docker/2.3 Архитектура Docker.md",
-    "DevOps/Stepik/Docker Простым Языком/2 Знакомство с Docker/2.6 Базовые команды.md",
-    "DevOps/Гит синхра.md",
-    "DevOps/Stepik/Поколение Python/Создание ярлыка exe-шника.md",
     "ObsidianVaultBackups/Backup_12.02.2026___WS-250.zip",
     "ObsidianVaultBackups/Backup_09.02.2026___DESKTOP-2J97TH8.zip",
     "ObsidianVaultBackups/ObsidianBackup_-2.-02_21-24.zip",
-    "ObsidianVaultBackups",
-    "backupobsidian.zip"
+    "ObsidianVaultBackups"
   ]
 }
