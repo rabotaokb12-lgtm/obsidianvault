@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevOps/Stepik/Docker Простым Языком/3 Образы/3.6 Практика ARG и т.д.md",
+                "file": "DevOps/Stepik/Git простым языком/3 Базовые операций/3.8 .gitignore и .gitkeep.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3.6 Практика ARG и т.д"
+              "title": "3.8 .gitignore и .gitkeep"
             }
           }
         ],
@@ -228,20 +228,21 @@
   },
   "active": "c3780834e847e695",
   "lastOpenFiles": [
+    "DevOps/Stepik/Git простым языком/3 Базовые операций/3.6 Отмена изменений checkout restore clean.md",
+    "DevOps/Stepik/Git простым языком/3 Базовые операций/3.8 .gitignore и .gitkeep.md",
+    "DevOps/Stepik/Docker Простым Языком/3 Образы/3.6 Практика ARG и т.д.md",
+    "DevOps/Stepik/Docker Простым Языком/3 Образы/3.5 ARG LABEL USER VOLUME ONBUILD STOPSIGNAL HEALTHCHECK SHELL.md",
+    "DevOps/Stepik/Docker Простым Языком/3 Образы/3.4 Практика с кодами.md",
     "ObsidianVaultBackups/Backup_02.03.2026___WS-250.zip",
     "DevOps/Stepik/Docker Простым Языком/2 Знакомство с Docker/2.8 Работа внутри контейнера.md",
-    "DevOps/Stepik/Docker Простым Языком/3 Образы/3.5 ARG LABEL USER VOLUME ONBUILD STOPSIGNAL HEALTHCHECK SHELL.md",
     "Python/Создание ярлыка exe-шника.md",
-    "DevOps/Stepik/Docker Простым Языком/3 Образы/3.6 Практика ARG и т.д.md",
     "ObsidianVaultBackups/Backup_26.02.2026___WS-250.zip",
     "DevOps/Stepik/Docker Простым Языком/3 Образы/3.2 Заметка.md",
-    "DevOps/Stepik/Docker Простым Языком/3 Образы/3.4 Практика с кодами.md",
     "DevOps/Stepik/Docker Простым Языком/3 Образы/3.1 Что такое Image.md",
     "DevOps/Stepik/Docker Простым Языком/2 Знакомство с Docker/2.5 Команды Docker.md",
     "Работа/Excel формулы.md",
     "HikConnect удобная печать пропусков.md",
     "DevOps/Stepik/Git простым языком/3 Базовые операций/3.5 Просмотр историй.md",
-    "DevOps/Stepik/Git простым языком/3 Базовые операций/3.6 Отмена изменений checkout restore clean.md",
     "ObsidianVaultBackups/Backup_25.02.2026___WS-250.zip",
     "DevOps/Stepik/Git простым языком/3 Базовые операций/3.2 Практика.md",
     "DevOps/Stepik/Git простым языком/3 Базовые операций/3.1 создание репозитория.md",
@@ -263,7 +264,6 @@
     "ObsidianVaultBackups/Backup_18.02.2026___WS-250.zip",
     "ObsidianVaultBackups/Backup_17.02.2026___WS-250.zip",
     "ObsidianVaultBackups/Backup_16.02.2026___WS-250.zip",
-    "ObsidianVaultBackups/Backup_13.02.2026___WS-250.zip",
-    "ObsidianVaultBackups/Backup_12.02.2026___WS-250.zip"
+    "ObsidianVaultBackups/Backup_13.02.2026___WS-250.zip"
   ]
 }
