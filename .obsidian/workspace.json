@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Создание ярлыка exe-шника.md",
+                "file": "DevOps/Stepik/Linux простым языком/5 Продвинутая работа в терминале/5.8 Grep поиск чего то где то.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Создание ярлыка exe-шника"
+              "title": "5.8 Grep поиск чего то где то"
             }
           }
         ],
@@ -242,12 +242,18 @@
   },
   "active": "19e01972b99d8722",
   "lastOpenFiles": [
+    "ObsidianVaultBackups/Backup_05.03.2026___WS-250.zip",
+    "DevOps/Stepik/Git простым языком/4 Ветвление и слияние/4.1 Ветки - Создание, переключение, удаление.md",
+    "DevOps/Stepik/Git простым языком/3 Базовые операций/3.1 создание репозитория.md",
+    "DevOps/Stepik/Git простым языком/4 Ветвление и слияние",
+    "DevOps/Stepik/Git простым языком/3 Базовые операций/3.8 .gitignore и .gitkeep.md",
+    "DevOps/Stepik/Git простым языком/3 Базовые операций/Без названия",
+    "DevOps/Stepik/Git простым языком/3 Базовые операций/3.6 Отмена изменений checkout restore clean.md",
+    "DevOps/Stepik/Docker Простым Языком/3 Образы/3.7 Best practices.md",
+    "Python/Создание ярлыка exe-шника.md",
     "ObsidianVaultBackups/Backup_04.03.2026___WS-250.zip",
     "DevOps/Гит синхра.md",
     "DevOps/Stepik/Git простым языком/3 Базовые операций/3.2 Практика.md",
-    "DevOps/Stepik/Git простым языком/3 Базовые операций/3.1 создание репозитория.md",
-    "DevOps/Stepik/Git простым языком/3 Базовые операций/3.6 Отмена изменений checkout restore clean.md",
-    "DevOps/Stepik/Git простым языком/3 Базовые операций/3.8 .gitignore и .gitkeep.md",
     "DevOps/Stepik/Git простым языком/3 Базовые операций/3.5 Просмотр историй.md",
     "DevOps/Stepik/Git простым языком/Установка.md",
     "DevOps/Stepik/Git простым языком/2 Основы Git/2.3 Основные понятие или термины.md",
@@ -259,7 +265,6 @@
     "DevOps/Stepik/Docker Простым Языком/3 Образы/3.4 Практика с кодами.md",
     "ObsidianVaultBackups/Backup_02.03.2026___WS-250.zip",
     "DevOps/Stepik/Docker Простым Языком/2 Знакомство с Docker/2.8 Работа внутри контейнера.md",
-    "Python/Создание ярлыка exe-шника.md",
     "ObsidianVaultBackups/Backup_26.02.2026___WS-250.zip",
     "DevOps/Stepik/Docker Простым Языком/3 Образы/3.2 Заметка.md",
     "DevOps/Stepik/Docker Простым Языком/3 Образы/3.1 Что такое Image.md",
@@ -271,13 +276,8 @@
     "!_Скрины/Pasted image 20260225093111.png",
     "ObsidianVaultBackups/Backup_24.02.2026___WS-250.zip",
     "Работа/AD.md",
-    "DevOps/Stepik/Linux простым языком/4 Текстовые редактовы/4.3 VIM.md",
-    "DevOps/Stepik/Git простым языком/3 Базовые операций/3.5 Просмотр историй 2.md",
     "ObsidianVaultBackups/Backup_23.02.2026___WS-250.zip",
     "ObsidianVaultBackups/Backup_19.02.2026___WS-250.zip",
-    "ObsidianVaultBackups/Backup_18.02.2026___WS-250.zip",
-    "ObsidianVaultBackups/Backup_17.02.2026___WS-250.zip",
-    "ObsidianVaultBackups/Backup_16.02.2026___WS-250.zip",
-    "ObsidianVaultBackups/Backup_13.02.2026___WS-250.zip"
+    "ObsidianVaultBackups/Backup_18.02.2026___WS-250.zip"
   ]
 }
