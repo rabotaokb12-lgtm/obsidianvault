@@ -69,16 +69,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevOps/Stepik/Docker Простым Языком/3 Образы/3.8 practice best practice.md",
+                "file": "Работа/SNR на кпп.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3.8 practice best practice"
+              "title": "SNR на кпп"
+            }
+          },
+          {
+            "id": "93cee54de50b3d2d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DevOps/Гит синхра.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Гит синхра"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -240,14 +254,21 @@
       "bases:Создать новую базу": false
     }
   },
-  "active": "19e01972b99d8722",
+  "active": "93cee54de50b3d2d",
   "lastOpenFiles": [
-    "ObsidianVaultBackups/Backup_13.03.2026___WS-250.zip",
-    "ObsidianVaultBackups/Backup_06.03.2026___WS-250.zip",
-    "DevOps/Stepik/Docker Простым Языком/3 Образы/3.4 Практика с кодами.md",
+    "DevOps/Stepik/Docker Простым Языком/6 docker compose/6.1 Начала.md",
+    "DevOps/Stepik/Docker Простым Языком/6 docker compose",
+    "Работа/ГПО.md",
+    "Работа/Настройка телефонов.md",
+    "Работа/1с установка.md",
+    "DevOps/Stepik/Docker Простым Языком/3 Образы/3.5 ARG LABEL USER VOLUME ONBUILD STOPSIGNAL HEALTHCHECK SHELL.md",
+    "DevOps/Stepik/Docker Простым Языком/3 Образы/3.7 Best practices.md",
     "DevOps/Stepik/Docker Простым Языком/3 Образы/3.6 Практика ARG и т.д.md",
     "DevOps/Stepik/Docker Простым Языком/3 Образы/3.8 practice best practice.md",
-    "DevOps/Stepik/Docker Простым Языком/3 Образы/3.7 Best practices.md",
+    "DevOps/Stepik/Docker Простым Языком/3 Образы/3.4 Практика с кодами.md",
+    "DevOps/Гит синхра.md",
+    "ObsidianVaultBackups/Backup_13.03.2026___WS-250.zip",
+    "ObsidianVaultBackups/Backup_06.03.2026___WS-250.zip",
     "DevOps/Stepik/Linux простым языком/6 Bash скрпиты/6.1 Основы Bash.md",
     "DevOps/Stepik/Linux простым языком/5 Продвинутая работа в терминале/5.8 Grep поиск чего то где то.md",
     "DevOps/Stepik/Linux простым языком/6 Bash скрпиты",
@@ -260,7 +281,6 @@
     "DevOps/Stepik/Git простым языком/3 Базовые операций/3.6 Отмена изменений checkout restore clean.md",
     "Python/Создание ярлыка exe-шника.md",
     "ObsidianVaultBackups/Backup_04.03.2026___WS-250.zip",
-    "DevOps/Гит синхра.md",
     "DevOps/Stepik/Git простым языком/3 Базовые операций/3.2 Практика.md",
     "DevOps/Stepik/Git простым языком/3 Базовые операций/3.5 Просмотр историй.md",
     "DevOps/Stepik/Git простым языком/Установка.md",
@@ -268,16 +288,9 @@
     "DevOps/Stepik/Git простым языком/2 Основы Git/2.1 Что такое система контроля версий.md",
     "DevOps/Интенсив/КАК ПОДКЛЮЧИТЬСЯ К ГИТУ.md",
     "DevOps/Интенсив/1 день/1.2 Подготовка окружения.md",
-    "DevOps/Stepik/Docker Простым Языком/3 Образы/3.5 ARG LABEL USER VOLUME ONBUILD STOPSIGNAL HEALTHCHECK SHELL.md",
     "ObsidianVaultBackups/Backup_02.03.2026___WS-250.zip",
     "DevOps/Stepik/Docker Простым Языком/2 Знакомство с Docker/2.8 Работа внутри контейнера.md",
     "ObsidianVaultBackups/Backup_26.02.2026___WS-250.zip",
-    "DevOps/Stepik/Docker Простым Языком/3 Образы/3.2 Заметка.md",
-    "DevOps/Stepik/Docker Простым Языком/3 Образы/3.1 Что такое Image.md",
-    "DevOps/Stepik/Docker Простым Языком/2 Знакомство с Docker/2.5 Команды Docker.md",
-    "Работа/Excel формулы.md",
-    "ObsidianVaultBackups/Backup_25.02.2026___WS-250.zip",
-    "!_Скрины/Pasted image 20260225093111.png",
-    "ObsidianVaultBackups/Backup_24.02.2026___WS-250.zip"
+    "!_Скрины/Pasted image 20260225093111.png"
   ]
 }
